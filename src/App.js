@@ -2,7 +2,7 @@ import firebase from 'firebase';
 import React, { Component } from 'react';
 import { View } from 'react-native';
 import { Header } from './components/common';
-import LoginForm from './components/LoginForm'
+import LoginForm from './components/LoginForm';
 
 class App extends Component {
   componentWillMount() {
@@ -13,7 +13,7 @@ class App extends Component {
     projectId: 'auth-f62f5',
     storageBucket: 'auth-f62f5.appspot.com',
     messagingSenderId: '585886201877'
-  });
+    });
   }
 
   render() {
